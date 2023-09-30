@@ -1,6 +1,6 @@
 module "ecs" {
     source = "./modules/ecs"
-    count = var.app=="ecs" ? 1 : 0 #boolean variable yes np
+    count = var.app=="ecs" ? 1 : 0 #boolean yes no
 }
 
 module "ecs" {
